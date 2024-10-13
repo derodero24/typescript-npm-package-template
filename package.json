@@ -23,7 +23,8 @@
     "lint": "biome check",
     "prepare": "husky && npm run build",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",
