@@ -1,0 +1,44 @@
+{
+  "name": "typescript-npm-package-template",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "derodero24",
+  "keywords": [
+    "typescript",
+    "npm",
+    "package",
+    "template"
+  ],
+  "repository": "github:derodero24/typescript-npm-package-template",
+  "homepage": "https://...",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "biome check",
+    "prepare": "husky && npm run build",
+    "size": "size-limit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@size-limit/preset-small-lib": "^11.1.6",
+    "@tsconfig/strictest": "^2.0.5",
+    "dts-cli": "^2.0.5",
+    "husky": "^9.1.6",
+    "size-limit": "^11.1.6",
+    "typescript": "^5.6.3",
+    "vite-tsconfig-paths": "^5.0.1",
+    "vitest": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
