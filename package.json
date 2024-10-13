@@ -9,7 +9,10 @@
     "package",
     "template"
   ],
-  "repository": "github:derodero24/typescript-npm-package-template",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derodero24/typescript-npm-package-template.git"
+  },
   "homepage": "https://github.com/derodero24/typescript-npm-package-template",
   "type": "module",
   "main": "dist/index.js",
