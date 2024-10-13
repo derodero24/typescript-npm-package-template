@@ -1,5 +1,5 @@
 {
-  "name": "typescript-npm-package-template",
+  "name": "@derodero24/typescript-npm-package-template",
   "version": "0.0.0",
   "license": "MIT",
   "author": "derodero24",
@@ -10,7 +10,7 @@
     "template"
   ],
   "repository": "github:derodero24/typescript-npm-package-template",
-  "homepage": "https://...",
+  "homepage": "https://github.com/derodero24/typescript-npm-package-template",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
